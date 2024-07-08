@@ -1,0 +1,88 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestMyRunner
+-------------------------------------------------------------------------------
+Tests run: 28, Failures: 0, Errors: 28, Skipped: 0, Time elapsed: 4.203 s <<< FAILURE! - in runner.TestMyRunner
+Login with valid credentials #1(Login functionality)  Time elapsed: 0.214 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "browserName" is null
+
+Login with valid credentials #1(Login functionality)  Time elapsed: 0.221 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "this.driver" is null
+
+Login with valid credentials #2(Login functionality)  Time elapsed: 0.174 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "browserName" is null
+
+Login with valid credentials #2(Login functionality)  Time elapsed: 0.175 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "this.driver" is null
+
+Login with valid credentials #3(Login functionality)  Time elapsed: 0.063 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "browserName" is null
+
+Login with valid credentials #3(Login functionality)  Time elapsed: 0.063 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "this.driver" is null
+
+Login with invalid credentials(Login functionality)  Time elapsed: 0.052 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "browserName" is null
+
+Login with invalid credentials(Login functionality)  Time elapsed: 0.052 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "this.driver" is null
+
+Login with valid email and invalid password(Login functionality)  Time elapsed: 0.041 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "browserName" is null
+
+Login with valid email and invalid password(Login functionality)  Time elapsed: 0.041 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "this.driver" is null
+
+Login with invalid email and valid password(Login functionality)  Time elapsed: 0.124 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "browserName" is null
+
+Login with invalid email and valid password(Login functionality)  Time elapsed: 0.125 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "this.driver" is null
+
+Login without providing any credentails(Login functionality)  Time elapsed: 0.078 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "browserName" is null
+
+Login without providing any credentails(Login functionality)  Time elapsed: 0.078 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "this.driver" is null
+
+User creates an account only with mandatory fields(Registration functionality)  Time elapsed: 0.101 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "browserName" is null
+
+User creates an account only with mandatory fields(Registration functionality)  Time elapsed: 0.102 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "this.driver" is null
+
+User creates an account with all fields(Registration functionality)  Time elapsed: 0.069 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "browserName" is null
+
+User creates an account with all fields(Registration functionality)  Time elapsed: 0.069 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "this.driver" is null
+
+User creates a duplicate account(Registration functionality)  Time elapsed: 0.039 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "browserName" is null
+
+User creates a duplicate account(Registration functionality)  Time elapsed: 0.041 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "this.driver" is null
+
+User creates an account without filling any details(Registration functionality)  Time elapsed: 0.037 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "browserName" is null
+
+User creates an account without filling any details(Registration functionality)  Time elapsed: 0.038 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "this.driver" is null
+
+User searches for a valid product(Search functionality)  Time elapsed: 0.036 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "browserName" is null
+
+User searches for a valid product(Search functionality)  Time elapsed: 0.038 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "this.driver" is null
+
+User searches for an invalid product(Search functionality)  Time elapsed: 0.03 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "browserName" is null
+
+User searches for an invalid product(Search functionality)  Time elapsed: 0.031 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "this.driver" is null
+
+User searches without any product(Search functionality)  Time elapsed: 0.022 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "browserName" is null
+
+User searches without any product(Search functionality)  Time elapsed: 0.023 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "this.driver" is null
+
